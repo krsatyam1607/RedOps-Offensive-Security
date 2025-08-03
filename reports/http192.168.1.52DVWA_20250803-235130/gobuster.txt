@@ -1,0 +1,15 @@
+/.git/HEAD           [32m (Status: 200)[0m [Size: 23]
+/.htaccess           [33m (Status: 403)[0m [Size: 301]
+/.htpasswd           [33m (Status: 403)[0m [Size: 301]
+/.hta                [33m (Status: 403)[0m [Size: 301]
+/config              [36m (Status: 301)[0m [Size: 342][34m [--> http://192.168.1.52/DVWA/config/][0m
+/database            [36m (Status: 301)[0m [Size: 344][34m [--> http://192.168.1.52/DVWA/database/][0m
+/docs                [36m (Status: 301)[0m [Size: 340][34m [--> http://192.168.1.52/DVWA/docs/][0m
+/external            [36m (Status: 301)[0m [Size: 344][34m [--> http://192.168.1.52/DVWA/external/][0m
+/favicon.ico         [32m (Status: 200)[0m [Size: 1406]
+/index.php           [36m (Status: 302)[0m [Size: 0][34m [--> login.php][0m
+/nul                 [33m (Status: 403)[0m [Size: 301]
+/php.ini             [32m (Status: 200)[0m [Size: 154]
+/phpinfo.php         [36m (Status: 302)[0m [Size: 0][34m [--> login.php][0m
+/robots.txt          [32m (Status: 200)[0m [Size: 26]
+/tests               [36m (Status: 301)[0m [Size: 341][34m [--> http://192.168.1.52/DVWA/tests/][0m
