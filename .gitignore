@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Scan output folders
+reports/
+logs/
+payloads/
+
+# OS & Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment/config secrets
+.env
+secrets.txt
+
+# VS Code project settings (if you use it)
+.vscode/
