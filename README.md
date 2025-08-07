@@ -1,4 +1,3 @@
-
 ```markdown
 # RedOps: Offensive Security Simulation Framework
 
@@ -21,27 +20,23 @@ RedOps is an open-source Python framework to simulate offensive security engagem
 
 ## Project Structure
 
-```
-
-RedOps/
-├── core/
-│   ├── scanner.py        # Recon wrapper (Nmap, Nikto, Gobuster)
-│   ├── exploit\_web.py    # SQLi automation
-│   ├── payload\_gen.py    # (Coming Soon)
-│   ├── report\_gen.py     # (Coming Soon)
-│   └── utils.py
-├── ui/
-│   └── cli.py
-├── reports/              # Scan and exploit outputs
-├── payloads/             # Reverse shell payloads
-├── logs/                 # Runtime logs
-├── venv/                 # Virtual environment
-├── README.md
-├── TODO.md
-├── .gitignore
-└── requirements.txt
-
-````
+    RedOps/
+    ├── core/
+    │   ├── scanner.py        # Recon wrapper (Nmap, Nikto, Gobuster)
+    │   ├── exploit_web.py    # SQLi automation
+    │   ├── payload_gen.py    # (Coming Soon)
+    │   ├── report_gen.py     # (Coming Soon)
+    │   └── utils.py
+    ├── ui/
+    │   └── cli.py
+    ├── reports/              # Scan and exploit outputs
+    ├── payloads/             # Reverse shell payloads
+    ├── logs/                 # Runtime logs
+    ├── venv/                 # Virtual environment
+    ├── README.md
+    ├── TODO.md
+    ├── .gitignore
+    └── requirements.txt
 
 ---
 
@@ -58,7 +53,7 @@ RedOps/
 
 ```bash
 sudo apt update && sudo apt install nmap nikto gobuster dirb git python3-full python3-venv
-````
+```
 
 ### Setup Environment
 
@@ -88,13 +83,11 @@ python3 core/scanner.py -t http://192.168.1.52/DVWA -m all
 
 ### Output Example
 
-```
-reports/
-└── http192.168.1.52DVWA_20250803-234528/
-    ├── nmap.txt
-    ├── nikto.txt
-    └── gobuster.txt
-```
+    reports/
+    └── http192.168.1.52DVWA_20250803-234528/
+        ├── nmap.txt
+        ├── nikto.txt
+        └── gobuster.txt
 
 ---
 
@@ -138,5 +131,4 @@ See `TODO.md` for weekly development roadmap and progress.
 ## License
 
 MIT
-
 ```
