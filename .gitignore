@@ -25,3 +25,10 @@ secrets.txt
 
 # VS Code project settings (if you use it)
 .vscode/
+
+*.log
+*.pyc
+
+
+#Red ops files
+TODO.md
